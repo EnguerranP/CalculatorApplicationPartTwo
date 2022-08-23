@@ -81,4 +81,25 @@ import android.widget.TextView;
         resultView.setText(""+result); //result view should display the value
 
     }
+    public void Exponent(View view){
+        EditText firstInput = findViewById(R.id.editTextFirstInput);
+        String firstValueString =firstInput.getText().toString();
+        int  firstValue = Integer.parseInt(firstValueString);
+        EditText secondInput = findViewById(R.id.editTextSecondInput);
+        String secondValueString = secondInput.getText().toString();
+        int secondValue = Integer.parseInt(secondValueString); //This is the second input value
+
+        int result = (int)Math.pow(firstValue,secondValue);
+
+        TextView resultView = findViewById(R.id.resultDisplay);
+
+        resultView.setText(""+result); //result view should display the value
+
+    }
+
+    public void switchScreens(View view){
+
+
+    }
+
 }
