@@ -2,6 +2,7 @@
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -98,7 +99,9 @@ import android.widget.TextView;
     }
 
     public void switchScreens(View view){
+        Intent intent= new Intent(this,SecondActivity.class);
 
+        startActivity(intent);
 
     }
 
