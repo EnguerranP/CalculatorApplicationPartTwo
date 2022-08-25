@@ -173,9 +173,13 @@ skills\n\n\t\t\t\t\t\t\t\tClick the button under this to start!"
         android:id="@+id/changeScreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click Here"
         android:onClick="switchScreens"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="656dp" />
+        android:text="Click Here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
